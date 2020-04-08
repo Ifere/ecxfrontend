@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,2.2), rgba(61, 61, 61, 0.3)), url("./manu.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative
+    z-index: 1;
+    background: #ffffff;
+    width: 400px;
+    max-width: 400px;
+    margin: -50px auto 100px;
+    margin-left: -50px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(131, 6, 6);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.title{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-block-start: 10px;
+}
